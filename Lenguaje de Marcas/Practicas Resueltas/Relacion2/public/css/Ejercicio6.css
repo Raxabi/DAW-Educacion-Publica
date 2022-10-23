@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/Fondo\ Ejercicio\ 6.jpg);
+    width: max-content;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#container {
+    margin-top: 20px;
+    padding: 30px;
+    width: 1000px;
+}
+
+#main-title {
+    color: lightyellow;
+    text-align: center;
+}
+
+#main-table {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.th-padding {
+    padding-left: 150px;
+    padding-right: 150px;
+}

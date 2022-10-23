@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Ejercicio7.css">
+    <title>Ejercicio 7 | Practica 3</title>
+</head>
+<body style="
+    width: max-content;
+    margin: auto;
+    background-color: #242424;
+    color: white;
+">
+    <h1>REST API de Distribuciones Linux</h1>
+
+    <form action="/upload" method="post">
+        <fieldset>
+            <legend>Datos de la distribucion</legend>
+            <div class="label-container">
+                <label for="nome">Nombre de la distribucion</label>
+                <input name="name" required type="text">
+            </div><br>
+
+            <div>
+                <label for="author">Autor u Organizacion creadora de la distribucion</label>
+                <input name="author" required type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de subiuda</legend>
+            <div>
+                <label for="section">Tipo de distribucion</label>
+                <select name="distros">
+                    <optgroup label="Distribuciones basadas en: ">
+                        <option value="ubuntu">Ubuntu</option>
+                        <option value="debian">Debian</option>
+                        <option value="arch">Arch Linux</option>
+                        <option value="manjaro">Manjaro</option>
+                        <option value="Fedora">Fedora</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div style="margin-top: 20px;">
+                <label for="description">Descripcion de la distrubucion (hacia que usuarios va orientada, usos mas comunes que puede llegar a darse, ...)</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <input style="margin-top: 5px; margin-left: 10px;" value="Subir distribucion al repositorio" type="submit">
+    </form>
+</body>
+</html>

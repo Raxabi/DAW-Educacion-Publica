@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 | Practica 3</title>
+    <style>
+        #button-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body style="
+    width: max-content;
+    margin: auto;
+">
+    <h1>Bienvenido</h1>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="name">Nombre</label>
+            <input type="text"><br>
+    
+            <label for="">Mensaje</label>
+            <textarea name="" id="" cols="60" rows="5"></textarea>
+        </fieldset>
+        <hr>
+        <button>Haz click sobre mi</button>
+        <hr>
+        <label for="icon_color">Seleccione el color de su icono</label><br>
+
+        <input name="color" type="radio">
+        <label for="rojo">Rojo</label><br>
+
+        <input name="color" type="radio">
+        <label for="verde">Verde</label><br>
+
+        <input name="color" type="radio">
+        <label for="azul">Azul</label><br>
+        <label for="como_llego">¿Como llego a nuestra web?</label>
+        <hr>
+        <label for="materia">Escoja una materia:</label>
+        <select name="materia">
+            <option value="mates">Matemáticas</option>
+            <option value="lengua">Lengua</option>
+            <option value="biologia">Biología</option>
+            <option value="ingles">Inglés</option>
+        </select>
+        <hr>
+        <label for="dia preferente">Seleccione el dia preferente:</label>
+        <select name="dai">
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miercoles">Miercoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+        </select>
+        <hr>
+        <label for="curriculum">Adjunta tu curriculum</label>
+        <input type="file"><br>
+
+        <div id="button-container">
+            <button style="width: 150px;" type="submit">Enviar</button>
+            <button style="width: 150px;" type="button">Borrar</button>
+        </div>
+    </form>
+</body>
+</html>

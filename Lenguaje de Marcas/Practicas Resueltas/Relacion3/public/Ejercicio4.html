@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 | Practica 3</title>
+    <style>
+        body {
+            width: max-content;
+            margin: auto;
+        }
+        table, tr, th {
+            border: 1px solid black;
+        }
+
+        .blue {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <table style="margin-top: 100px;">
+        <form>
+            <tr>
+                <th colspan="6">Formulario de registro</th>
+            </tr>
+            <tr>
+                <th class="blue">Nombre</th>
+                <th style="text-align: left;" colspan="2"><input type="text"></th>
+                <label for="sexo"><th class="blue">Sexo:</th></label>
+                <th>
+                    <label for="hombre">Hombre</label>
+                    <input name="sexo" type="radio">
+                    <label for="Mujer">Mujer</label>
+                    <input name="sexo" type="radio">
+                </th>
+            </tr>
+            <tr>
+                <th class="blue">Usuario</th>
+                <th style="text-align: left;" colspan="2"><input type="text"></th>
+                <th class="blue" rowspan="5"><label for="aficiones">Aficiones</label></th>
+                <th rowspan="5" style="text-align: left;">
+                    <input type="checkbox">
+                    <label for="viajar">Viajar</label><br>
+
+                    <input type="checkbox">
+                    <label for="cine">Cine</label><br>
+
+                    <input type="checkbox">
+                    <label for="deportes">Deportes</label><br>
+
+                    <input type="checkbox">
+                    <label for="viajar">Leer</label><br>
+
+                    <input type="checkbox">
+                    <label for="musica">Musica</label><br>
+                </th>
+            </tr>
+            <tr>
+                <th class="blue">Password</th>
+                <th><input type="text"><input type="text"></th>
+            </tr>
+            <tr>
+                <th class="blue">Provincia</th>
+                <th style="text-align: left;">
+                    <select name="" id="">
+                        <option value="Huelva">Huelva</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Cadiz">Cádiz</option>
+                        <option value="Malaga">Málaga</option>
+                        <option value="Cordoba">Córdoba</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Jaen">Jaén</option>
+                        <option value="almeria">Almería</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th class="blue">Foto:</th>
+                <th><input type="file"></th>
+            </tr>
+            <tr>
+                <th class="blue">Firma</th>
+                <th><textarea name="Firma" cols="30" rows="3"></textarea></th>
+            </tr>
+            <tr>
+                <th colspan="5">
+                    <Button type="submit">Enviar</Button>
+                    <Button type="button">Borrar</Button>
+                </th>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 | Practica 3</title>
+    <style>
+        .label-container{
+            margin-top: 5px;
+        }
+
+        #button-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="
+    width: max-content;
+    margin: auto;
+">
+    <form style="margin-top: 20px;">
+        <legend>Formulario de registro</legend>
+        <div class="label-container">
+            <label for="name">Nombre</label>
+            <input type="text"><br>
+        </div>
+
+        <div class="label-container">
+            <label for="email">Email</label>
+            <input placeholder="@" type="text"><br>
+        </div>
+        
+        <div class="label-container">
+            <label for="poblacion">Población</label>
+            <input type="text"><br>
+        </div>
+
+        <div class="label-container">
+            <label for="como_llego">¿Cómo llego a nuestra web?</label>
+            <select name="como_llego">
+                <option value="azar">Por azar, buscando en internet cosas relacionadas con la web</option>
+                <option value="recomendacion">Me la recomendo un amigo / conocido</option>
+                <option value="publicidad">Sistema de publicidad (a través de correo electronico, papeletas fisicas, etc...)</option>
+                <option value="merchandising">Sistemas de `merchandising` (forma de publicidad a traves de mercadontecnia, como camisetas, souvenirs, etc...)</option>
+            </select>
+        </div>
+        <div id="button-cotaniner">
+            <button type="submit">Enviar</button>
+            <button type="submit">Enviar</button>
+            <button type="button">Borrar</button>
+        </div>
+    </form>
+</body>
+</html>

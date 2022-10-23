@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 | Practica 3</title>
+</head>
+<body style="
+    width: max-content;
+    margin: auto;
+">
+    <form style="margin-top: 20px;">
+        <fieldset>
+            <legend>FORMULARIO DE REGISTRO</legend>
+            <label for="nombre">NOMBRE</label>
+            <input type="text"><br>
+            <label for="sexo">Sexo: </label>
+            <label for="hombre">
+                Hombre
+                <input name="sexo" value="hombre" type="radio">
+            </label>
+            <label for="mujer">
+                Mujer
+                <input name="sexo" value="mujer" type="radio">
+            </label><br>
+            <label for="user">Usuario</label>
+            <input type="text"><br>
+
+            <label for="aficiones">Aficiones</label><br>
+            
+            <input type="checkbox">
+            <label for="">Viajar</label><br>
+            
+            <input type="checkbox">
+            <label for="">Cine</label><br>
+            
+            <input type="checkbox">
+            <label for="">Deportes</label><br>
+            
+            <input type="checkbox">
+            <label for="">Leer</label><br>
+
+            <input type="checkbox">
+            <label for="">Musica</label><br>
+            
+            <label for="">Contraseña:</label>
+            <input type="text"><br>
+
+            <label>Provincia</label>
+            <input list="provincia">
+            
+            <datalist id="provincia">
+                <option value="Huelva"></option>
+                <option value="Sevilla"></option>
+                <option value="Málaga"></option>
+                <option value="Granada"></option>
+                <option value="Cádiz"></option>
+                <option value="Córdoba"></option>
+                <option value="Jaen"></option>
+                <option value="Almería"></option>
+            </datalist><br>
+
+            <label for="firma">Firma</label>
+            <textarea name="firma" id="" cols="30" rows="10"></textarea><br>
+
+            <label for="foto">Foto</label>
+            <input type="file">
+
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="button">Borrar</button>
+    </form>
+</body>
+</html>
