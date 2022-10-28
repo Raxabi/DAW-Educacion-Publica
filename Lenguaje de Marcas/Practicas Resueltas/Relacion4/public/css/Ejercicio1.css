@@ -1,0 +1,32 @@
+body {
+    width: 700px;
+    margin: auto;
+}
+
+#tomato {
+    background-color: #ff6346;
+}
+
+#orange {
+    background-color: #ffa500;
+}
+
+#dodger {
+    background-color: #1e90ff;
+}
+
+#medium {
+    background-color: #3cb371;
+}
+
+#gray {
+    background-color: #808080;
+}
+
+#slate {
+    background-color: #6a5acd;
+}
+
+#violet {
+    background-color: #ee82ee;
+}
