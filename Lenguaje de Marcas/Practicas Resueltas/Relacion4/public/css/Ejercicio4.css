@@ -1,0 +1,25 @@
+* {
+    background-color: #2d8652;
+}
+
+.cursive {
+    font-family: cursive;
+    font-style: italic;
+    color: white;
+}
+
+.golodrinas {
+    font-family: serif;
+    text-transform: lowercase;
+    color: #fadfb3
+}
+
+.huevo {
+    font-family: monospace;
+    color: #f59c2a;
+}
+
+.rosa {
+    font-family: sans-serif;
+    color: #da3c50;
+}
