@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Ejercicio5.css">
+    <title>Ejercicio 5 | Practica 5</title>
+</head> 
+<body>
+    <form id="main-form">     
+        <div id="main-content-container">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <div id="datos-personales">
+                    <label class="bolder-label" for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" value=""/>
+                    
+                    <label class="bolder-label" for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" value=""/>
+                    
+                    <label class="bolder-label" for="dni">DNI</label>
+                    <input type="text" name="dni" value=""/>
+                    <br/>
+                    
+                    <label class="bolder-label" for="localidad de nacimiento">
+                        Localidad de Nacimiento
+                    </label><br>
+                    <input type="text" name="localidad de nacimento" value=""/>
+
+                    <label class="bolder-label" for="provincia">
+                        Provincia:
+                    </label>
+                    <select id="provincia" name="provincia">
+                        <option value="Huelva">Huelva</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Cadiz">Cádiz</option>
+                        <option value="Malaga">Málaga</option>
+                        <option value="Cordoba">Córdoba</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Jaen">Jaén</option>
+                        <option value="Almeria">Almeria</option>
+                    </select>
+                    <label class="bolder-label" for="fecha de nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" name="fecha de nacimiento" value=""/>
+                    <br>
+
+                    <label class="bolder-label" for="dirección">Dirección</label>
+                    <input type="text" name="dirección" size="54" value=""/> 
+
+                    <label class="bolder-label" for="código postal">Código Postal:</label>
+                    <input type="text" name="código postal" value=""/>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Forma de acceso</legend>
+                <div id="acceso">  
+                    <input type="radio" name="estudios-directos-input" value=""/>Directo<br>
+                    <div id="estudios-directos-container">
+                        <input type="radio" name="directo-options" value=""/>Bachillerato Log Modalidad<input type="text" name="directo" value=""/> <br>
+                        <input type="radio" name="directo-options" value=""/>Experimental<br>
+                        <input type="radio" name="directo-options" value=""/>COU Opción<input type="text" name="directo" value=""/> <br> 
+                        <input type="radio" name="directo-options" value=""/>FP2<br>
+                        <input type="radio" name="directo-options" value=""/>Otros (especifique)<input type="text" name="directo" value="">
+                    </div>
+                    <input type="radio" name="estudios-libres-input" value=""/> Prueba Libre <br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Documentos Adjuntados</legend>
+                <div id="documentos">
+                    <input type="checkbox" name="DNI" value=""/>Fotocopia DNI
+                    <input type="checkbox" name="certificado" value=""/>Certificado Académico<br>
+                    <input type="checkbox" name="otros" value=""/>Otros documentos (especifique)<input type="text" name="otros" value=""/>
+                </div>
+            </fieldset>
+            <div id="submit-container">
+                <button type="submit" name="Enviar Solicitud">Enviar Solicitud</button>
+                <button type="reset" name="Limpiar Datos">Limpiar Datos</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

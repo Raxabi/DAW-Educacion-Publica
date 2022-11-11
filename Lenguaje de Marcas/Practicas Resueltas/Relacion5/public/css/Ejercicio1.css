@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#main-header {
+    background-color: orangered;
+    padding: 5px;
+}
+
+#main-header > #main-title {
+    font-size: 17px;
+    padding: 5px;
+    /* margin params arriba, derecha, abajo, izquierda */
+    margin: 5px 20px 5px 20px;
+    border: 1px solid black;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.first-article {
+    background-color: #ffccbc;
+}
+
+.second-article {
+    
+}
+
+.h2-title {
+
+}
+
+.h3-title {
+
+}

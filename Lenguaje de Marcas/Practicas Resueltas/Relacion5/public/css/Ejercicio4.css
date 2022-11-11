@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body {
+    width: max-content;
+    margin: auto;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    padding: 20px;
+}
+
+#main-table {
+    width: max-content;
+    margin: auto;
+}
+
+#main-table > tbody > tr:nth-child(odd) {
+    background-color: red;
+}
+
+#main-table > tbody > tr:nth-child(2n) {
+    background-color: green;
+}
+
+/* Segunda tabla */
+#second-table {
+    margin-top: 20px;
+    width: max-content;
+    margin: auto;
+}
+
+#second-table > tbody > tr:nth-child(3) {
+    background-color: red;
+}
+
+/* Tercera tabla */
+#thrid-table {
+    width: max-content;
+    margin: auto;
+}
+
+#thrid-table > tbody > tr:nth-child(3n) {
+    background-color: red;
+}
+
+/* Cuarta tabla */
+#fourth-table {
+    width: max-content;
+    margin: auto;
+}
+
+#fourth-table > tbody > tr:nth-child(3n+1) {
+    background-color: red;
+}
+
+/* Quinta tabla */
+#fifth-table {
+    width: max-content;
+    margin: auto;
+}
+
+#fifth-table > tbody > tr:nth-child(3n+2) {
+    background-color: red;
+}
+
+#sixth-table {
+    width: max-content;
+    margin: auto;
+}
+
+#sixth-table > tbody > tr:nth-child(3n+2) {
+    background-color: red;
+}

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: max-content;
+    margin: auto;
+}
+
+table, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px 20px 5px 20px;
+}
+
+#container {
+    margin: 30px;
+}
+
+#container > h1 {
+    text-align: center;
+}
+
+#container > #main-table {
+    width: 800px;
+    margin: 30px;
+}
+
+
+/* Colors Classes */
+
+.yellow {
+    background-color: rgb(255, 255, 195);
+}
+
+.strong-yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: rgb(125, 155, 80);
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.strong-red {
+    background-color: rgb(255, 77, 77);
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.grey {
+    background-color: rgb(168, 168, 168);
+}

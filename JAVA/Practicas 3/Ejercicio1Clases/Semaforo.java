@@ -38,18 +38,38 @@ public class Semaforo {
      * @return Verdadero si puedes pasar o falso si no puedes pasar
      */
     public boolean puedoPasar() {
-        if (this.colorSemaforo == "Rojo") {
+        if (this.colorSemaforo.equals("Rojo")) {
             return false;
         }
 
-        else if (this.colorSemaforo == "Amarillo") {
-            return true;
+        else if (this.colorSemaforo.equals("Amarillo")) {
+            return false;
         }
 
-        else if (this.colorSemaforo == "Verde") {
+        else {
             return true;
         }
+    }
 
-        return false;
+    @Override
+    /**
+     * Redefinicion del metodo toString para esta clase
+     */
+    public String toString() {
+
+        String cadena = "";
+
+        switch (this.colorSemaforo) {
+            case "Rojo" -> {
+                cadena = "Verde puede no pasar";
+            }
+            case "Amarillo" -> {
+                cadena = "Amarillo no puede pasar";
+            }
+            case "Verde" -> {
+                cadena = "Puede pasar";
+            }
+        }
+        return cadena;
     }
 }

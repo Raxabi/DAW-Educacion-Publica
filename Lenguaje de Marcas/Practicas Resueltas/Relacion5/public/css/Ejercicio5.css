@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+body {
+    width: max-content;
+    margin: auto;
+}
+
+.bolder-label {
+    font-weight: bolder;
+}
+
+#main-content-container{
+    margin: auto;
+}
+
+#main-form {
+    margin: 20px auto 20px;
+}
+
+#main-content-container > fieldset + fieldset {
+    margin-top: 10px;
+}
+
+/* Datos personales */
+#datos-personales {
+    background-color: #BBBBBB;
+    padding: 20px;
+}
+
+/* acceso */
+
+#acceso {
+    background-color: rgb(241, 194, 156);
+}
+
+#estudios-directos-container {
+    margin-left: 50px;
+}
+
+#acceso {
+    padding: 20px;
+}
+
+#documentos {
+    background-color: rgb(182, 126, 126);
+    padding: 10px;
+}
+
+#submit-container {
+    width: max-content;
+    margin: 10px auto 0 auto;
+}
+
+#submit-container > button {
+    background-color: rgb(0, 119, 255);
+    border:  none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+#submit-container > button:hover {
+    background-color: #BBBBBB;
+    color: black;
+    border: none;
+}
